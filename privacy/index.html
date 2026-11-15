@@ -75,7 +75,7 @@
         <h1>Polityka prywatności aplikacji Wiedzoidowo</h1>
 
         <p class="date">
-            Data wejścia w życie: 29 sierpnia 2026 r.
+            Data wejścia w życie: 15 listopada 2026 r.
         </p>
 
         <h2>1. Informacje ogólne</h2>
@@ -96,31 +96,72 @@
 
         <p>
             Wiedzoidowo jest grą quizową na urządzenia z systemem Android.
-            Aplikacja nie wymaga zakładania konta ani logowania.
+            Wydanie opisane w tej polityce nie wymaga logowania ani zakładania konta.
+            Google Sign-In i synchronizacja postępów nie są dostępne; są odłożone
+            do późniejszego wydania.
         </p>
 
         <h2>2. Jakie dane przetwarza Wiedzoidowo</h2>
 
         <p>
-            Wiedzoidowo nie wymaga podawania imienia, nazwiska, adresu e-mail,
-            numeru telefonu, lokalizacji ani innych bezpośrednich danych
-            identyfikacyjnych.
+            Aplikacja nie wymaga podawania imienia, nazwiska, adresu e-mail,
+            numeru telefonu ani lokalizacji. Wydanie opisane w tej polityce nie
+            zawiera Firebase Analytics ani innego systemu analitycznego,
+            Firebase Crashlytics ani zewnętrznego systemu raportowania awarii.
         </p>
 
-        <p>Aktualna wersja aplikacji nie zawiera:</p>
-
-        <ul>
-            <li>reklam,</li>
-            <li>Firebase Analytics ani innego systemu analitycznego,</li>
-            <li>systemu logowania lub kont użytkowników,</li>
-            <li>płatności,</li>
-            <li>narzędzi do śledzenia lokalizacji,</li>
-            <li>Firebase Crashlytics ani innego zewnętrznego systemu raportowania awarii.</li>
-        </ul>
+        <p>
+            Aktualnie dostępna publiczna wersja nie wyświetla reklam i nie oferuje
+            zakupów w aplikacji. AdMob, Google UMP oraz jednorazowy zakup Remove Ads
+            są przygotowywane do premiery i nie są jeszcze aktywne w publicznym wydaniu.
+        </p>
 
         <p>
-            Aplikacja korzysta jednak z usług Firebase i Google Play służących
-            do działania funkcji zgłaszania pytań oraz ochrony zaplecza aplikacji.
+            W przygotowywanym wydaniu AdMob ma wyświetlać dobrowolne reklamy rewarded
+            oraz reklamy interstitial po ukończeniu pełnego quizu Classic, zgodnie
+            z limitami w aplikacji. Reklama rewarded będzie dobrowolna, dostępna
+            z ekranu głównego i ograniczona do trzech razy dziennie; może przyznać
+            pomoc 50:50. Planowany zakup Remove Ads ma wyłączyć reklamy
+            interstitial; dobrowolne reklamy rewarded pozostaną dostępne.
+        </p>
+
+        <p>
+            Po uruchomieniu AdMob Google może przetwarzać dane związane z reklamami,
+            w tym identyfikatory reklamowe lub identyfikator App Set ID, adres IP
+            (mogący posłużyć do przybliżonego określenia lokalizacji), informacje
+            o urządzeniu i systemie, interakcje z reklamami oraz dane diagnostyczne
+            i dotyczące zapobiegania nadużyciom. Szczegóły opisuje
+            <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">informacja Google o danych zbieranych przez Mobile Ads SDK</a>
+            oraz <a href="https://policies.google.com/privacy?hl=pl">polityka prywatności Google</a>.
+        </p>
+
+        <p>
+            Google UMP ma zarządzać zgodami reklamowymi: pobierać aktualny stan zgód
+            i wyświetlać formularz, gdy będzie wymagany. Użytkownik będzie mógł
+            dokonać wyboru, w tym odmówić zgody w zakresie przedstawionym
+            w formularzu. Jeżeli UMP będzie wymagać opcji prywatności, preferencje
+            będzie można ponownie zmienić w ustawieniach aplikacji. Żądania reklam
+            będą wysyłane tylko wtedy, gdy UMP na nie zezwoli. Podstawowa rozgrywka
+            pozostanie dostępna bez zgody; reklamy lub związane z nimi nagrody mogą
+            być wtedy niedostępne. Więcej informacji zawiera
+            <a href="https://developers.google.com/admob/android/privacy">dokumentacja Google UMP</a>.
+        </p>
+
+        <p>
+            Planowany jednorazowy zakup Remove Ads ma być obsługiwany przez Google Play
+            Billing. Przy użyciu standardowej integracji płatność obsługuje Google Play,
+            a aplikacja otrzymuje stan zakupu potrzebny do przyznania uprawnienia.
+            W takim modelu aplikacja nie otrzymuje bezpośrednio danych karty
+            płatniczej.
+            Informacja ta dotyczy planowanej integracji i zacznie obowiązywać
+            po jej wdrożeniu. Szczegóły dotyczące płatności opisuje
+            <a href="https://support.google.com/googleplay/answer/11174377?hl=pl">pomoc Google Play</a>.
+        </p>
+
+        <p>
+            Aplikacja korzysta z usług Firebase i Google Play służących do obsługi
+            dobrowolnych zgłoszeń pytań oraz ochrony usług aplikacji.
+            Serwerowe Daily Rewards nie są włączone w tym wydaniu.
         </p>
 
         <h2>3. Zgłaszanie problemów z pytaniami</h2>
@@ -162,8 +203,8 @@
         </ul>
 
         <p>
-            Zgłoszenia służą wyłącznie do analizy błędów i poprawy jakości
-            pytań dostępnych w Wiedzoidowo. Wysłanie zgłoszenia jest opcjonalne.
+            Zgłoszenia służą do analizy błędów i poprawy jakości pytań dostępnych
+            w Wiedzoidowo. Wysłanie zgłoszenia jest opcjonalne.
         </p>
 
         <h2>4. Firebase App Check i Google Play Integrity</h2>
@@ -195,16 +236,18 @@
         </p>
 
         <ul>
-            <li>rekordów w trybach Sprint i Survival,</li>
-            <li>postępu i serii Wyzwania dnia,</li>
-            <li>ostatniego wyniku Wyzwania dnia,</li>
-            <li>ustawienia dźwięku.</li>
+            <li>rekordów w trybach Sprint, Survival i poszczególnych kategoriach,</li>
+            <li>postępu, serii i ostatniego wyniku Wyzwania dnia,</li>
+            <li>salda pomocy 50:50,</li>
+            <li>ustawień dźwięku i rozgrywki.</li>
         </ul>
 
         <p>
-            Dane te nie są przesyłane do bazy danych Wiedzoidowo.
-            Niektóre ustawienia mogą być objęte standardowym mechanizmem
-            kopii zapasowej Androida obsługiwanym przez Google.
+            Dane te nie są przesyłane do Firestore ani synchronizowane z kontem.
+            Dobrowolne zgłoszenia pytań są osobnym przypadkiem opisanym w sekcji 3.
+            Niektóre dane aplikacji mogą być objęte standardowym mechanizmem kopii zapasowej
+            Androida obsługiwanym przez Google, zależnie od ustawień urządzenia
+            i systemu.
         </p>
 
         <h2>6. Okres przechowywania zgłoszeń</h2>
@@ -230,8 +273,10 @@
         </p>
 
         <p>
-            Dane nie są przekazywane podmiotom trzecim w celach reklamowych
-            ani marketingowych.
+            Po uruchomieniu monetyzacji dane techniczne i interakcje związane
+            z reklamami będą przetwarzane przez Google AdMob, a stan zgód będzie
+            obsługiwany przez Google UMP. Google Play będzie obsługiwać planowane
+            płatności za Remove Ads. Szczegóły opisano w sekcji 2.
         </p>
 
         <h2>8. Bezpieczeństwo</h2>
@@ -263,9 +308,11 @@
         </p>
 
         <p>
-            Ponieważ Wiedzoidowo nie posiada systemu kont użytkowników,
-            a zgłoszenia pytań nie zawierają identyfikatora użytkownika,
+            Zgłoszenia pytań nie zawierają identyfikatora użytkownika, dlatego
             przypisanie konkretnego zgłoszenia do konkretnej osoby może nie być możliwe.
+            Dane lokalne można usunąć przez ustawienia systemowe Androida,
+            usunięcie danych aplikacji lub jej odinstalowanie. Kopie zapasowe mogą
+            podlegać osobnym ustawieniom Androida lub Google.
         </p>
 
         <h2>11. Zmiany Polityki prywatności</h2>
@@ -276,9 +323,9 @@
         </p>
 
         <p>
-            W szczególności może zostać zaktualizowana, jeśli w przyszłości
-            Wiedzoidowo otrzyma nowe funkcje, takie jak reklamy, analityka,
-            konta użytkowników lub inne funkcje wykorzystujące dane.
+            W szczególności zaktualizujemy ją przed udostępnieniem reklam,
+            Google UMP, zakupów, logowania Google, synchronizacji danych lub innych
+            funkcji wymagających dodatkowego przetwarzania danych.
         </p>
 
         <h2>12. Kontakt</h2>
@@ -289,7 +336,6 @@
             E-mail:
             <a href="mailto:wiedzoidowo@gmail.com">wiedzoidowo@gmail.com</a>
         </p>
-
     </article>
 </main>
 </body>
